@@ -11,6 +11,9 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
+    "@emotion/react": "^11.8.1",
+    "@emotion/styled": "^11.8.1",
+    "@mui/material": "^5.4.3",
     "react": "17.0.2",
     "react-dom": "^17.0.2",
     "react-native": "0.67.2",
@@ -18,13 +21,13 @@
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
+    "@babel/plugin-syntax-flow": "7.14.5",
+    "@babel/plugin-transform-react-jsx": "7.14.9",
     "@babel/runtime": "^7.12.5",
     "@types/jest": "^26.0.23",
     "@types/react-native": "^0.66.15",
     "@types/react-test-renderer": "^17.0.1",
     "@typescript-eslint/parser": "^5.7.0",
-    "@babel/plugin-syntax-flow": "7.14.5",
-    "@babel/plugin-transform-react-jsx@": "7.14.9",
     "eslint": "^7.14.0",
     "metro-react-native-babel-preset": "^0.66.2",
     "react-scripts": "^5.0.0",
